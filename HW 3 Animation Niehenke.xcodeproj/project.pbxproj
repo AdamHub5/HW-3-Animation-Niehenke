@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6633B5C423FF5B9C00B37736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633B5C323FF5B9C00B37736 /* AppDelegate.swift */; };
+		6633B5C623FF5B9C00B37736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633B5C523FF5B9C00B37736 /* SceneDelegate.swift */; };
+		6633B5C823FF5B9C00B37736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633B5C723FF5B9C00B37736 /* ViewController.swift */; };
+		6633B5CB23FF5B9C00B37736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6633B5C923FF5B9C00B37736 /* Main.storyboard */; };
+		6633B5CD23FF5B9D00B37736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6633B5CC23FF5B9D00B37736 /* Assets.xcassets */; };
+		6633B5D023FF5B9D00B37736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6633B5CE23FF5B9D00B37736 /* LaunchScreen.storyboard */; };
+		6633B5DB23FF5B9E00B37736 /* HW_3_Animation_NiehenkeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633B5DA23FF5B9E00B37736 /* HW_3_Animation_NiehenkeTests.swift */; };
+		6633B5E623FF5B9E00B37736 /* HW_3_Animation_NiehenkeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633B5E523FF5B9E00B37736 /* HW_3_Animation_NiehenkeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6633B5D723FF5B9E00B37736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6633B5B823FF5B9C00B37736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6633B5BF23FF5B9C00B37736;
+			remoteInfo = "HW 3 Animation Niehenke";
+		};
+		6633B5E223FF5B9E00B37736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6633B5B823FF5B9C00B37736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6633B5BF23FF5B9C00B37736;
+			remoteInfo = "HW 3 Animation Niehenke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6633B5C023FF5B9C00B37736 /* HW 3 Animation Niehenke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3 Animation Niehenke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6633B5C323FF5B9C00B37736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6633B5C523FF5B9C00B37736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6633B5C723FF5B9C00B37736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6633B5CA23FF5B9C00B37736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6633B5CC23FF5B9D00B37736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6633B5CF23FF5B9D00B37736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6633B5D123FF5B9D00B37736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6633B5D623FF5B9E00B37736 /* HW 3 Animation NiehenkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Animation NiehenkeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6633B5DA23FF5B9E00B37736 /* HW_3_Animation_NiehenkeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_3_Animation_NiehenkeTests.swift; sourceTree = "<group>"; };
+		6633B5DC23FF5B9E00B37736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6633B5E123FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Animation NiehenkeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6633B5E523FF5B9E00B37736 /* HW_3_Animation_NiehenkeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_3_Animation_NiehenkeUITests.swift; sourceTree = "<group>"; };
+		6633B5E723FF5B9E00B37736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6633B5BD23FF5B9C00B37736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5D323FF5B9E00B37736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5DE23FF5B9E00B37736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6633B5B723FF5B9C00B37736 = {
+			isa = PBXGroup;
+			children = (
+				6633B5C223FF5B9C00B37736 /* HW 3 Animation Niehenke */,
+				6633B5D923FF5B9E00B37736 /* HW 3 Animation NiehenkeTests */,
+				6633B5E423FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests */,
+				6633B5C123FF5B9C00B37736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6633B5C123FF5B9C00B37736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6633B5C023FF5B9C00B37736 /* HW 3 Animation Niehenke.app */,
+				6633B5D623FF5B9E00B37736 /* HW 3 Animation NiehenkeTests.xctest */,
+				6633B5E123FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6633B5C223FF5B9C00B37736 /* HW 3 Animation Niehenke */ = {
+			isa = PBXGroup;
+			children = (
+				6633B5C323FF5B9C00B37736 /* AppDelegate.swift */,
+				6633B5C523FF5B9C00B37736 /* SceneDelegate.swift */,
+				6633B5C723FF5B9C00B37736 /* ViewController.swift */,
+				6633B5C923FF5B9C00B37736 /* Main.storyboard */,
+				6633B5CC23FF5B9D00B37736 /* Assets.xcassets */,
+				6633B5CE23FF5B9D00B37736 /* LaunchScreen.storyboard */,
+				6633B5D123FF5B9D00B37736 /* Info.plist */,
+			);
+			path = "HW 3 Animation Niehenke";
+			sourceTree = "<group>";
+		};
+		6633B5D923FF5B9E00B37736 /* HW 3 Animation NiehenkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6633B5DA23FF5B9E00B37736 /* HW_3_Animation_NiehenkeTests.swift */,
+				6633B5DC23FF5B9E00B37736 /* Info.plist */,
+			);
+			path = "HW 3 Animation NiehenkeTests";
+			sourceTree = "<group>";
+		};
+		6633B5E423FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6633B5E523FF5B9E00B37736 /* HW_3_Animation_NiehenkeUITests.swift */,
+				6633B5E723FF5B9E00B37736 /* Info.plist */,
+			);
+			path = "HW 3 Animation NiehenkeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6633B5BF23FF5B9C00B37736 /* HW 3 Animation Niehenke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6633B5EA23FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation Niehenke" */;
+			buildPhases = (
+				6633B5BC23FF5B9C00B37736 /* Sources */,
+				6633B5BD23FF5B9C00B37736 /* Frameworks */,
+				6633B5BE23FF5B9C00B37736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW 3 Animation Niehenke";
+			productName = "HW 3 Animation Niehenke";
+			productReference = 6633B5C023FF5B9C00B37736 /* HW 3 Animation Niehenke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6633B5D523FF5B9E00B37736 /* HW 3 Animation NiehenkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6633B5ED23FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation NiehenkeTests" */;
+			buildPhases = (
+				6633B5D223FF5B9E00B37736 /* Sources */,
+				6633B5D323FF5B9E00B37736 /* Frameworks */,
+				6633B5D423FF5B9E00B37736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6633B5D823FF5B9E00B37736 /* PBXTargetDependency */,
+			);
+			name = "HW 3 Animation NiehenkeTests";
+			productName = "HW 3 Animation NiehenkeTests";
+			productReference = 6633B5D623FF5B9E00B37736 /* HW 3 Animation NiehenkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6633B5E023FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6633B5F023FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation NiehenkeUITests" */;
+			buildPhases = (
+				6633B5DD23FF5B9E00B37736 /* Sources */,
+				6633B5DE23FF5B9E00B37736 /* Frameworks */,
+				6633B5DF23FF5B9E00B37736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6633B5E323FF5B9E00B37736 /* PBXTargetDependency */,
+			);
+			name = "HW 3 Animation NiehenkeUITests";
+			productName = "HW 3 Animation NiehenkeUITests";
+			productReference = 6633B5E123FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6633B5B823FF5B9C00B37736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adam Niehenke";
+				TargetAttributes = {
+					6633B5BF23FF5B9C00B37736 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6633B5D523FF5B9E00B37736 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6633B5BF23FF5B9C00B37736;
+					};
+					6633B5E023FF5B9E00B37736 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6633B5BF23FF5B9C00B37736;
+					};
+				};
+			};
+			buildConfigurationList = 6633B5BB23FF5B9C00B37736 /* Build configuration list for PBXProject "HW 3 Animation Niehenke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6633B5B723FF5B9C00B37736;
+			productRefGroup = 6633B5C123FF5B9C00B37736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6633B5BF23FF5B9C00B37736 /* HW 3 Animation Niehenke */,
+				6633B5D523FF5B9E00B37736 /* HW 3 Animation NiehenkeTests */,
+				6633B5E023FF5B9E00B37736 /* HW 3 Animation NiehenkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6633B5BE23FF5B9C00B37736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633B5D023FF5B9D00B37736 /* LaunchScreen.storyboard in Resources */,
+				6633B5CD23FF5B9D00B37736 /* Assets.xcassets in Resources */,
+				6633B5CB23FF5B9C00B37736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5D423FF5B9E00B37736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5DF23FF5B9E00B37736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6633B5BC23FF5B9C00B37736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633B5C823FF5B9C00B37736 /* ViewController.swift in Sources */,
+				6633B5C423FF5B9C00B37736 /* AppDelegate.swift in Sources */,
+				6633B5C623FF5B9C00B37736 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5D223FF5B9E00B37736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633B5DB23FF5B9E00B37736 /* HW_3_Animation_NiehenkeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6633B5DD23FF5B9E00B37736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633B5E623FF5B9E00B37736 /* HW_3_Animation_NiehenkeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6633B5D823FF5B9E00B37736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6633B5BF23FF5B9C00B37736 /* HW 3 Animation Niehenke */;
+			targetProxy = 6633B5D723FF5B9E00B37736 /* PBXContainerItemProxy */;
+		};
+		6633B5E323FF5B9E00B37736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6633B5BF23FF5B9C00B37736 /* HW 3 Animation Niehenke */;
+			targetProxy = 6633B5E223FF5B9E00B37736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6633B5C923FF5B9C00B37736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6633B5CA23FF5B9C00B37736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6633B5CE23FF5B9D00B37736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6633B5CF23FF5B9D00B37736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6633B5E823FF5B9E00B37736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6633B5E923FF5B9E00B37736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6633B5EB23FF5B9E00B37736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation Niehenke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-Niehenke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6633B5EC23FF5B9E00B37736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation Niehenke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-Niehenke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6633B5EE23FF5B9E00B37736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation NiehenkeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-NiehenkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Animation Niehenke.app/HW 3 Animation Niehenke";
+			};
+			name = Debug;
+		};
+		6633B5EF23FF5B9E00B37736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation NiehenkeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-NiehenkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Animation Niehenke.app/HW 3 Animation Niehenke";
+			};
+			name = Release;
+		};
+		6633B5F123FF5B9E00B37736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation NiehenkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-NiehenkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW 3 Animation Niehenke";
+			};
+			name = Debug;
+		};
+		6633B5F223FF5B9E00B37736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "HW 3 Animation NiehenkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.HW-3-Animation-NiehenkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW 3 Animation Niehenke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6633B5BB23FF5B9C00B37736 /* Build configuration list for PBXProject "HW 3 Animation Niehenke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6633B5E823FF5B9E00B37736 /* Debug */,
+				6633B5E923FF5B9E00B37736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6633B5EA23FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation Niehenke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6633B5EB23FF5B9E00B37736 /* Debug */,
+				6633B5EC23FF5B9E00B37736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6633B5ED23FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation NiehenkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6633B5EE23FF5B9E00B37736 /* Debug */,
+				6633B5EF23FF5B9E00B37736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6633B5F023FF5B9E00B37736 /* Build configuration list for PBXNativeTarget "HW 3 Animation NiehenkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6633B5F123FF5B9E00B37736 /* Debug */,
+				6633B5F223FF5B9E00B37736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6633B5B823FF5B9C00B37736 /* Project object */;
+}
